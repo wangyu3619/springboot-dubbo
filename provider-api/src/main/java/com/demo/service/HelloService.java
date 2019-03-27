@@ -5,5 +5,11 @@ package com.demo.service;
  * 2019/03/26 21:15
  */
 public interface HelloService {
+    /**
+     * SayHello
+     *
+     * @param name name
+     * @return hello String
+     */
     String sayHello(String name);
 }
